@@ -1,0 +1,31 @@
+<div class="welcome">
+
+	<div class="banner">Welcome to Gar's Tic-Tac-Toe Game</div>
+
+	<div class="homeinfo">
+		<div class="lobbyinfo"> 
+			<div> Hello {{ currentUser.name }} </div>
+			<div>	There are {{ numPlayers }} players in the lobby </div>
+			<div> There are {{ numReadyPlayers }} players ready to begin! </div>
+		</div>
+
+		<form ng-submit='signUp()' class="input">
+			<label for ="name"> Please input your name </label>
+			<input type='text' ng-model='currentUserName' required>
+			<button>Add me!</button>
+		</form>
+
+		<ul class="playersList" ng-repeat="player in allPlayers">
+			<div class="eachPlayer">
+				<div class="playername"> {{ player.name }} </div>
+				<div class="status"> {{ player.status }} </div>
+			</div>
+		</ul>
+
+		<div class="options">
+			<button ng-click="statusChange()">I'm ready!</button>
+			<button ng-click="startGame()">LET'S PLAY </button>
+		</div>
+	</div>
+
+</div>
