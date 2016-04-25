@@ -1,0 +1,12 @@
+<div class="welcome"> 
+	Welcome to TicTacToe, {{ currentUserName }} 
+</div>
+
+<div class="gameboard">
+	<table border="1">
+	    <tr ng-repeat="row in [0,1,2]">
+	        <td ng-repeat="column in [0,1,2]" ng-click="setPiece(row,column,currentUserName)" ng-class="cellClass(row,column)">{{cellText(row,column)}}
+	        </td>
+	    </tr>
+	</table>
+</div>
