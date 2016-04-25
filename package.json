@@ -1,0 +1,31 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "Multiplayer socket game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeGar/multiplayer-tic-tac-toe.git"
+  },
+  "author": "Gar Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeeGar/multiplayer-tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/LeeGar/multiplayer-tic-tac-toe#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "^1.15.0",
+    "connect-redis": "^3.0.2",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.9.1",
+    "redis": "^2.6.0-1",
+    "socket.io": "^1.4.5",
+    "socket.io-express-session": "^0.1.3"
+  }
+}
