@@ -1,0 +1,55 @@
+
+body {
+	padding-left: 20px;
+}
+
+form {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font: 90px sans-serif;
+    text-align: center;
+    vertical-align: center;
+}
+
+.banner {
+	font-size: 30px;
+	color: #1976D2;
+}
+
+.welcome {
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 2%;
+	color: #FF5722;
+};
+
+
+#homeinfo {
+	text-align: center;
+}
+
+
+.return {
+	padding-top: 40px;
+	font-size: 40px;
+	text-align: center;
+	color: #1976D2;
+}
+
+.thanks {
+	font-size: 50px;
+	text-align: center;
+	color: #FF5722;
+}
+
+.gameboard {
+	margin-left: 30%;
+	margin-right: 30%;
+}
